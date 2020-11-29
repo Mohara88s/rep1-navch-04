@@ -149,6 +149,9 @@ h2 {
   margin-right: 50px;
 }
 
+.header-contacts svg {
+  margin-right: 10px;
+}
 .navigation a,
 .header-contacts a {
   padding-top: 32px;
@@ -159,12 +162,14 @@ h2 {
 }
 .header-contacts a {
   color: var(--auxiliary-text-color);
+  display: flex;
 }
 .navigation a:hover,
 .navigation a:focus,
 .header-contacts a:hover,
 .header-contacts a:focus {
   color: var(--accent-color);
+  --color5: var(--accent-color);
 }
 /* footer*/
 .footer {

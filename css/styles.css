@@ -215,7 +215,9 @@ h2 {
 .footer .soucial-links a {
   width: 44px;
   height: 44px;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   --color3: var(--additional-color);
@@ -363,8 +365,11 @@ h2 {
 .team .soucial-links a {
   width: 44px;
   height: 44px;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .team .soucial-links a:hover,
 .team .soucial-links a:focus {
   border-radius: 50%;

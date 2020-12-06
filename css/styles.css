@@ -117,7 +117,7 @@ h2 {
 
 /* logo*/
 .logo span,
-#selected-page {
+.selected-page {
   color: var(--accent-color);
 }
 .logo {
